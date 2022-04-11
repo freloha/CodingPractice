@@ -17,7 +17,7 @@ bool IsPrimeNumber(int number) {
     return true;
 }
 
-void PrimeNumbers(const vector<int>& primes) {
+void PrimeNumbers(const vector<int>& primes) { // const 변수는 주소를 바꿀 수 없다.
     for (int v : primes) {
         cout << v << endl;
     }
